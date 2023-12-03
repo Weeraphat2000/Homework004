@@ -54,8 +54,15 @@ main{
 .bg-color{
     background-color: aqua;
 }
+.bg-white{
+    background-color: white;
+}
 .border{
     border: 1px solid red;
+}
+
+.text-center{
+    text-align: center;
 }
 
 
@@ -65,9 +72,25 @@ main{
 .flex{
     display: flex;
 }
+.just-between{
+    justify-content: space-between;
+}
+.just-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
 .gap{
     gap: 8px;
 }
+.gap20{
+    gap: 20px;
+}
+.gap5p{
+    gap: 5%;
+}
+
 .flex-flow{
     flex-grow: 0;
     flex-shrink: 0;
@@ -86,6 +109,9 @@ main{
 .margin{
     margin-left: 8px;
 }
+.margin-top{
+    margin-top: 20px;
+}
 .margin-footer{
     margin-bottom: 200px;
 }
@@ -95,6 +121,9 @@ main{
 }
 .padding-rigth{
     padding-right: 20px;
+}
+.padding-left{
+    padding-left: 20px;
 }
 .padding-inline{
     padding-inline: 20px;
@@ -124,7 +153,30 @@ footer{
     background-repeat: no-repeat;
 }
 
-
+@media (max-width:1000px){
+    .column1{
+        flex-direction: column-reverse;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .column2{
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        gap: 15px;
+    }
+    .column3{
+        display: none;
+    }
+    .column4{
+        justify-content: center;
+    }
+    .column5{
+        flex-direction: column;
+    }
+    
+}
 
 
 @media (max-width:680px){
@@ -148,6 +200,7 @@ footer{
 
 
 }
+
 
 
 
