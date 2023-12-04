@@ -175,11 +175,8 @@ footer{
     .column5{
         flex-direction: column;
     }
-    
-}
 
 
-@media (max-width:680px){
     .change{
         flex-direction: column;
         /* background-color: aqua; */
@@ -195,13 +192,6 @@ footer{
     nav a{
         margin-inline: 30px;
     }
-
-
-
-
+    
 }
-
-
-
-
 
